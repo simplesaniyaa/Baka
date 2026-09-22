@@ -30,9 +30,10 @@ from baka.database import chatbot_collection
 from baka.utils import stylize_text
 
 # Settings
-MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
-MODEL = "mistral-small-latest" 
+OPENAI_URL = "https://api.openai.com/v1/chat/completions"
+MODEL = "gpt-4o-mini"
 MAX_HISTORY = 12
+
 
 # --- CUTE STICKER PACKS ---
 STICKER_PACKS = [
