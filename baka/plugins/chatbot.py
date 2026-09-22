@@ -25,7 +25,7 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ContextTypes
 from telegram.constants import ParseMode, ChatAction, ChatType
 from telegram.error import BadRequest
-from baka.config import MISTRAL_API_KEY, BOT_NAME, OWNER_LINK
+from baka.config import OPENAI_API_KEY, BOT_NAME, OWNER_LINK
 from baka.database import chatbot_collection
 from baka.utils import stylize_text
 
